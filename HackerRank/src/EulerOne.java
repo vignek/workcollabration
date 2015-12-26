@@ -1,24 +1,20 @@
+import java.io.*;
 import java.util.*;
 
 public class EulerOne {
+public static float sumMupltiple(float num, float limit) {
+		float numOfMulitples = (limit - 1) / num;
+		return num * (numOfMulitples * (numOfMulitples + 1) / 2);
+	}
 
-	public static void main (String [] args) {
-
-		int total = 0;
-
-		Scanner input = new Scanner(System.in);
-		int i = input.nextInt();
-		int one = input.nextInt();
-		int two = input.nextInt();
-
-		for (int j = 0; i < one; i++) {
-			if(j %3 == 0  || j %5 ==0) {
-				total = total +j;
-			}
+	public static void main(String[] args) {
+		int i = 0;
+		Scanner input = new Scanner (System.in);
+		float testCases = input.nextInt();
+		while(i < testCases) {
+			float limit = input.nextInt();
+			System.out.println(sumMupltiple(3, limit) + sumMupltiple(5, limit) - sumMupltiple(15, limit));
+			i++;
 		}
-		System.out.println("");
-
-
-
 	}
 }
