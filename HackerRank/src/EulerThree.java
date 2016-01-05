@@ -2,17 +2,17 @@ import java.util.*;
 
 public class EulerThree {
 
-	static List<Long> factors (long num){ // function will return list type
+	static long factors (long num) { // function will return list type
 		ArrayList factors = new ArrayList<Long>();
 
-		for (long i =2; i <= num; i ++){
-
-			while (num % i == 0){
+		for (long i =2; i <= num; i++) {
+			while (num % i == 0) {
 				factors.add(i);
 				num /= i;
 			}
 		}
-		return factors;
+		long i =  Collections.max(factors);
+		return i;
 	}
 
 
@@ -22,11 +22,9 @@ public class EulerThree {
 		int testCase = input.nextInt();
 
 		while (testCase != 0) {
-			int n = input.nextInt();
-			for (long lon: factors(n)){
-				System.out.println(lon);
-				// code to print the largest number
-			}
+			long n = input.nextInt();
+			factors(n);
+			System.out.println(i);
 			testCase--;
 		}
 	}
