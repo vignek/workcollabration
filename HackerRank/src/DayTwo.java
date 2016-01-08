@@ -16,7 +16,7 @@ public class DayTwo {
 
 		double T1 = (T * M)/100;
 		
-		double X1 = (X * T1)/100;
+		double X1 = (X * M)/100;
 		
 		
 		int total = (int) Math.round(M+T1+X1);
