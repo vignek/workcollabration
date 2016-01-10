@@ -32,6 +32,26 @@ public class Car {
         isTheCarOn = customIsTheCarOn;
     }
     
+    public int getMaxSpeed(){
+    	return this.maxSpeed;
+    }
+    
+    public void setMaxSpeed(int newMaxSpeed){
+    	 this.maxSpeed=newMaxSpeed;
+    }
+    
+    public int getMinSpeed(){
+    	return this.maxSpeed;
+    }
+    
+    public double getWeight(){
+    	return this.weight;
+    }
+    
+    public boolean getIsTheCarOn(){
+    	return this.isTheCarOn;
+    }
+    
     public void printVariables() {
         System.out.println("This is the maxSpeed " + maxSpeed);
         System.out.println(minSpeed);
@@ -43,8 +63,7 @@ public class Car {
     }
     
     public void upgradeMinSpeed() {
-        minSpeed = maxSpeed;
-        maxSpeed = maxSpeed + 1;
+    	setMaxSpeed(getMaxSpeed() + 10);
     }
     
     public void getIn() {
@@ -68,7 +87,7 @@ public class Car {
             numberOfPeopleInCar--;
         } else {
             // otherwise no one can get out and we'll print that. 
-            System.out.print("No one is in the car " + numberOfPeopleInCar);
+            System.out.println("No one is in the car " + numberOfPeopleInCar);
         }
     }
     
@@ -106,11 +125,7 @@ public class Car {
        tommyCar.turnTheCarOn();
        tommyCar.turnTheCarOn();
        
-             
-       
-//        System.out.println("Christmas Car");
-//        Car christmasPresent = new Car(550, 2000, false);
-//        christmasPresent.printVariables();
+
     }
     
 }
