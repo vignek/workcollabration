@@ -14,7 +14,7 @@ public class CoinToss {
 
 		Scanner in = new Scanner(System.in);
 		int TestCase = in.nextInt();
-		
+		 
 		CoinToss game = new CoinToss();
 
 		for(int i = 0 ; i < TestCase; i++) {
