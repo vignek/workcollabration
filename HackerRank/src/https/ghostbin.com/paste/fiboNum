@@ -1,0 +1,30 @@
+
+import java.util.*;
+
+/**
+ *
+ * @author vnk4
+ */
+public class fiboNum {
+
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        int a = input.nextInt();
+        
+        int f = 0 , s = 1, nex ;
+        
+        for (int i = 0; i < a; i++) {
+            if (i <=1) {
+                nex = i;
+            }
+            else {
+                nex = f + s;
+                f = s;
+                s = nex;
+            }
+            System.out.println(""+nex);    
+        }
+    }
+
+}
