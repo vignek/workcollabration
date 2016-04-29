@@ -1,3 +1,1 @@
-# HackerRank
-
-My HackerRank Problems and Solutions.
+Android WorkCollabration Project
