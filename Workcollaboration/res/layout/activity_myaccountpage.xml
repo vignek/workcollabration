@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/violet"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/profilePicture"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_launcher"
+                android:onClick="editProfilePicture" />
+<!--
+            <Button
+                android:id="@+id/profEditButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="edit"
+                android:onClick="editProfilePicture"
+                android:textStyle="italic" />
+                -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/accname"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="TEST"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+			<TextView
+                android:id="@+id/statusUpdate"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:text="Status"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+        <EditText 
+          		android:id="@+id/editStatusUpdate"
+                android:layout_width="180dp"
+                android:textSize="18sp"
+                android:layout_height="60dp"
+                 android:textColor="#000000"
+                 android:visibility="gone"
+                android:layout_gravity="center"
+                android:textStyle="italic"  />
+
+            <Button
+                android:id="@+id/statusEditButton"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="edit status"
+                android:textColor="#000000"
+                android:onClick="updateStatus"
+                android:background="@color/violet"
+                android:textStyle="italic" >
+            </Button>
+            <Button
+                android:id="@+id/statusEditDoneButton"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@color/violet"
+                android:text="Done"
+                android:textColor="#000000"
+                android:onClick="doneStatus"
+                android:textStyle="italic"
+                android:visibility="gone" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="Email"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emailname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:text="testemail@gmail.com"
+            android:textSize="20sp"
+            android:textStyle="" />
+    </LinearLayout>
+<!--  
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#303F9F"
+        android:text="Change Password"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+-->
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#303F9F"
+        android:gravity="center"
+        android:onClick="logOut"
+        android:text="Logout"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.sheikbro.onlinechat.ASynchronousTasks" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/ASynchronousTasks.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="459" width="311" x="1409" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.sheikbro.onlinechat.AddContact" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/AddContact.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="210" x="187" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.sheikbro.onlinechat.ChatWindowCustomAdapter.OnItemClickListener" 
+    project="Onlinechat" file="/Onlinechat/src/com/sheikbro/onlinechat/ChatWindowCustomAdapter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="153" x="3482" y="1227"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.sheikbro.onlinechat.Verification" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/Verification.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="176" x="437" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.sheikbro.onlinechat.ChatWindow" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/ChatWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1089" width="216" x="3652" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.sheikbro.onlinechat.Video" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/Video.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="189" x="653" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.sheikbro.onlinechat.Loginpage" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/Loginpage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1125" width="258" x="882" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.sheikbro.onlinechat.ContactsCustomAdapter" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/ContactsCustomAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="824" x="3918" y="728"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.sheikbro.onlinechat.ASynchronousTasks.ASyncChatmessage" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/ASynchronousTasks.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="181" x="1188" y="728"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.sheikbro.onlinechat.Image" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/Image.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="189" x="1180" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.sheikbro.onlinechat.DatabaseHelper" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/DatabaseHelper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="241" x="1760" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.sheikbro.onlinechat.MainActivity" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/MainActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="179" x="2041" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.sheikbro.onlinechat.SelectedContacts" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/SelectedContacts.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="200" x="2260" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.sheikbro.onlinechat.ContactsCustomAdapter.ViewHolder" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/ContactsCustomAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="173" x="3751" y="1402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.sheikbro.onlinechat.ASynchronousTasks.ASyncContacts" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/ASynchronousTasks.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="181" x="1409" y="728"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.sheikbro.onlinechat.Homepage" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/Homepage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="603" width="210" x="2500" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.sheikbro.onlinechat.ASynchronousTasks.ASyncChatroom" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/ASynchronousTasks.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="181" x="1630" y="728"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.sheikbro.onlinechat.ChatPageCustomAdapter" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/ChatPageCustomAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="733" x="4782" y="728"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.sheikbro.onlinechat.Contactspage" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/Contactspage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="293" x="3918" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.sheikbro.onlinechat.Chatpage" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/Chatpage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="293" x="4782" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.sheikbro.onlinechat.Signup" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/Signup.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="160" x="2750" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <annotation id="22" language="java" name="com.sheikbro.onlinechat.selectImage" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/selectImage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="63" width="111" x="2950" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </annotation>  
+  <class id="23" language="java" name="com.sheikbro.onlinechat.Myaccpage" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/Myaccpage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="293" x="3101" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.sheikbro.onlinechat.ContactsCustomAdapter.OnItemClickListener" 
+    project="Onlinechat" file="/Onlinechat/src/com/sheikbro/onlinechat/ContactsCustomAdapter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="212" x="3685" y="1227"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.sheikbro.onlinechat.Grouppage" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/Grouppage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="210" x="5555" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.sheikbro.onlinechat.ChatPageCustomAdapter.OnItemClickListener" 
+    project="Onlinechat" file="/Onlinechat/src/com/sheikbro/onlinechat/ChatPageCustomAdapter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="140" x="4782" y="1227"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.sheikbro.onlinechat.CustomGroupPageAdapter" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/CustomGroupPageAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="560" x="5555" y="728"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.sheikbro.onlinechat.Audio" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/Audio.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="178" x="3434" y="-437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.sheikbro.onlinechat.ChatWindowCustomAdapter" project="Onlinechat" 
+    file="/Onlinechat/src/com/sheikbro/onlinechat/ChatWindowCustomAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="459" width="665" x="3213" y="728"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="30">    
+    <bendpoint x="3927" y="1227"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="14"/>  
+  </nesting>  
+  <association id="31">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="32" name="customAdapter"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="34">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <nesting id="35">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="15"/>  
+  </nesting>  
+  <nesting id="36">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="17"/>  
+  </nesting>  
+  <nesting id="37">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="9"/>  
+  </nesting>  
+  <association id="38">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="39" name="viewHolder"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="41">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="26"/>  
+  </nesting>  
+  <association id="42">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="43" name="chatWindowCustomAdapter"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="45">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="46" name="groupListAdapter"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="49" name="chw"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="52" name="viewHolder"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="55" name="gp"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="57">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="24"/>  
+  </nesting>  
+  <association id="58">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="59" name="adapter"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

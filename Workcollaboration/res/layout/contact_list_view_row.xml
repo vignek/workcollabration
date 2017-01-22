@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/unExtendedLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/normalLeftLayout"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+    		android:background="#ffffff" >
+
+            <ImageView
+                android:id="@+id/profilePicture"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher" >
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/normalRightLayout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"     
+            android:orientation="vertical"
+            android:background="#ffffff" >
+
+            <LinearLayout
+                android:id="@+id/innerUpLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:orientation="horizontal">
+                
+                <TextView
+                    android:id="@+id/textUserName"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:text="asdasd"
+                    android:textColor="#000000"
+                    android:textSize="23sp"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/onlineStatus"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:visibility="gone"
+                    android:background="#CECECE" >
+                </ImageView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textStatusUpdate"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="left"
+                android:text="asdas"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/extendedLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/textEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="asdasd"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        
+        <LinearLayout
+             android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageChat"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="70dp"
+                android:src="@android:drawable/ic_dialog_email" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/imageDelete"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:src="@android:drawable/ic_menu_delete" >
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

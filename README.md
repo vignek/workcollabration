@@ -1,4 +1,6 @@
-## Android Work Collabration - Appium Testing  :
+## Android Work Collabration Project:
+- Done as part of Software Test Quality Assurance Course from NJIT
+- Techologies used Android , PHP, MySQL and Appium
 
 ##### App Details :
 
@@ -13,6 +15,6 @@
 - Setting common workspace for sharing notes to group
 - Email Authentication
 
-##### Running Instructions :
+##### Testing Running Instructions :
 - Install and Setup Appium Latest Version
 - Downlod and import project to run in Eclipse
