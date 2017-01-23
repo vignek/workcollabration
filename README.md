@@ -7,7 +7,8 @@
 - Implements End to End Application built on Native Android
 - Backend - PHP and MySQL
 - Hosted in University Website
-- Features Include : 
+
+##### Features Include : 
 - One to One chat
 - Group Chatting
 - Sending Images and audio
